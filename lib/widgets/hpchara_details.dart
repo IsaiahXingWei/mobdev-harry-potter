@@ -118,7 +118,7 @@ class CharacterProfile extends StatelessWidget {
                   const SizedBox(height: 8,),
                   Scrollbar(child:
                     Container(
-                      height: 300,
+                      height: MediaQuery.of(context).size.height - 550,
                       child: SingleChildScrollView(
                         scrollDirection: Axis.vertical,
                         child: Text(description,
